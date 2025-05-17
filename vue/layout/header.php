@@ -111,10 +111,10 @@ if (!isset($pageTitle)) {
                 
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <!-- Menu utilisateur connecté -->
-                    <a href="<?php echo getRoute('profil'); ?>">
+                    <a href="http://localhost/Projet_hackaton2/vue/user/profil.php">
                         <i class="fas fa-user"></i> Mon Profil
                     </a>
-                    <a href="<?php echo getRoute('logout'); ?>" style="color: #dc3545;">
+                    <a href="http://localhost/Projet_hackaton2/controllers/AuthController.php?action=logout" style="color: #dc3545;">
                         <i class="fas fa-sign-out-alt"></i> Déconnexion
                     </a>
                 <?php else: ?>

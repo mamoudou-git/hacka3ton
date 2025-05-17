@@ -7,7 +7,7 @@ define('DB_PASS', '');
 
 // Configuration des chemins
 define('ROOT_PATH', dirname(__DIR__) . DIRECTORY_SEPARATOR);
-define('BASE_URL', 'http://localhost/Projet_hackaton/');
+define('BASE_URL', 'http://localhost/Projet_hackaton2/');
 
 // Configuration des routes pour l'authentification
 define('LOGIN_URL', BASE_URL . 'vue/user/login.php');

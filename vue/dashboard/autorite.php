@@ -73,10 +73,10 @@ try {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../signalements/liste.php">Signalements</a>
+                        <a class="nav-link" href="../signalements/liste_signalements.php">Signalements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../user/logout.php">Déconnexion</a>
+                        <a class="nav-link" href="http://localhost/Projet_hackaton2/vue/user/deconnexion.php">Déconnexion</a>
                     </li>
                 </ul>
             </div>
